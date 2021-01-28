@@ -12,3 +12,8 @@
     flex-direction: column;
     justify-content: center;
 }
+
+
+.bg-img--version--1{
+    background-image: url('../img/img-1.jpg');
+}
