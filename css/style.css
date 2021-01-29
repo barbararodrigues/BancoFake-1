@@ -1,21 +1,12 @@
-.container-paralax{
-    height: 100vh;
-    display: flex;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.nav-link:hover {
+  color: #dc3545 !important;
 }
-.content-paralax--data{
-    text-align: center;
-    color: #fff;
-    flex-direction: column;
-    justify-content: center;
+#checkbox:checked {
+  color: #dc3545;
+  background-color: #dc3545;
+  border-color: #dc3545;
 }
-
-
-
-
-.nav-link:hover{
-    color:red !important;
+#checkbox:focus {
+  box-shadow: none;
+  border-color: #dc3545;
 }
